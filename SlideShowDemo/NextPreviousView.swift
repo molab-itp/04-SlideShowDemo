@@ -8,7 +8,7 @@
 import SwiftUI
 
 // system symbol names for each slide
-let slides = ["ant","hare","ladybug","tortoise"]
+let slides = ["fish","ant","hare","ladybug","tortoise"]
 
 struct NextPreviousView: View {
   @State var slideIndex = 0
