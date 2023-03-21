@@ -14,6 +14,7 @@
 		AB07E43527DA614600392EBD /* NextPreviousView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB07E43427DA614600392EBD /* NextPreviousView.swift */; };
 		AB07E43727DA633C00392EBD /* PlayPauseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB07E43627DA633C00392EBD /* PlayPauseView.swift */; };
 		AB07E43B27DA6F1300392EBD /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AB07E43A27DA6F1300392EBD /* README.md */; };
+		ABECE55E29C9F14F009084A1 /* AudioDJ.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABECE55D29C9F14F009084A1 /* AudioDJ.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		AB07E43427DA614600392EBD /* NextPreviousView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextPreviousView.swift; sourceTree = "<group>"; };
 		AB07E43627DA633C00392EBD /* PlayPauseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayPauseView.swift; sourceTree = "<group>"; };
 		AB07E43A27DA6F1300392EBD /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		ABECE55D29C9F14F009084A1 /* AudioDJ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioDJ.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				AB07E42827DA553D00392EBD /* ContentView.swift */,
 				AB07E43427DA614600392EBD /* NextPreviousView.swift */,
 				AB07E43627DA633C00392EBD /* PlayPauseView.swift */,
+				ABECE55D29C9F14F009084A1 /* AudioDJ.swift */,
 				AB07E42A27DA553F00392EBD /* Assets.xcassets */,
 				AB07E42C27DA553F00392EBD /* Preview Content */,
 			);
@@ -148,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB07E42927DA553D00392EBD /* ContentView.swift in Sources */,
+				ABECE55E29C9F14F009084A1 /* AudioDJ.swift in Sources */,
 				AB07E43527DA614600392EBD /* NextPreviousView.swift in Sources */,
 				AB07E43727DA633C00392EBD /* PlayPauseView.swift in Sources */,
 				AB07E42727DA553D00392EBD /* SlideShowDemoApp.swift in Sources */,
