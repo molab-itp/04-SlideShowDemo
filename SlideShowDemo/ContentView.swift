@@ -7,6 +7,10 @@
 
 import SwiftUI
 
+// system symbol names for each slide
+// could passed as EnvironmentObject
+let slides = ["fish","ant","hare","ladybug","tortoise"]
+
 struct ContentView: View {
   var body: some View {
     NavigationView {
