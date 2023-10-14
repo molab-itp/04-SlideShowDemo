@@ -15,8 +15,12 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             VStack {
+                Text("Slide Show Demo")
+                    .padding()
+                    .font(.largeTitle)
                 NavigationLink (destination: NextPreviousView()) {
                     Text("Next Previous Link")
+                        .padding()
                 }
                 NavigationLink (destination: PlayPauseView()) {
                     Text("Play Pause Link")
