@@ -12,15 +12,15 @@ struct PlayPauseView: View {
   @State var isPlaying = false
   // Timer gets called every second.
   let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
-    
-    @StateObject var audioDJ = AudioDJ()
-
+  
+  @StateObject var audioDJ = AudioDJ()
+  
   var body: some View {
     VStack {
       Text("Play Pause Slides")
         .font(Font.system(size: 30, weight: .bold))
         .padding()
-      // slides is defined in NextPreviousView
+      // slides is defined in ContentView
       let name = slides[slideIndex]
       SlideView(name: name)
       HStack {
@@ -55,12 +55,12 @@ struct PlayPauseView: View {
   
   func playPauseAction() {
     isPlaying.toggle()
-      if isPlaying {
-          audioDJ.play()
-      }
-      else {
-          audioDJ.stop()
-      }
+    if isPlaying {
+      audioDJ.play()
+    }
+    else {
+      audioDJ.stop()
+    }
   }
   func previousItemAction() {
     slideIndex = (slideIndex - 1 + slides.count) % slides.count
