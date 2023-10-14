@@ -62,9 +62,9 @@
 			children = (
 				AB07E42627DA553D00392EBD /* SlideShowDemoApp.swift */,
 				AB07E42827DA553D00392EBD /* ContentView.swift */,
-				AB4EC79529CA512700CC106D /* AudioDJ.swift */,
 				AB07E43427DA614600392EBD /* NextPreviousView.swift */,
 				AB07E43627DA633C00392EBD /* PlayPauseView.swift */,
+				AB4EC79529CA512700CC106D /* AudioDJ.swift */,
 				AB07E42A27DA553F00392EBD /* Assets.xcassets */,
 				AB07E42C27DA553F00392EBD /* Preview Content */,
 			);

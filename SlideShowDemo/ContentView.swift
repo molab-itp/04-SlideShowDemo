@@ -12,23 +12,25 @@ import SwiftUI
 let slides = ["fish","ant","hare","ladybug","tortoise"]
 
 struct ContentView: View {
-  var body: some View {
-    NavigationView {
-      VStack {
-        NavigationLink (destination: NextPreviousView()) {
-          Text("Next Previous Link")
+    var body: some View {
+        NavigationView {
+            VStack {
+                NavigationLink (destination: NextPreviousView()) {
+                    Text("Next Previous Link")
+                }
+                NavigationLink (destination: PlayPauseView()) {
+                    Text("Play Pause Link")
+                }
+                Spacer()
+            }
         }
-        NavigationLink (destination: PlayPauseView()) {
-          Text("Play Pause Link")
-        }
-        Spacer()
-      }
     }
-  }
 }
 
+// AudioDJ must be established here to avoid crash in preview
 struct ContentView_Previews: PreviewProvider {
-  static var previews: some View {
-    ContentView()
-  }
+    static var previews: some View {
+        ContentView()
+            .environmentObject(AudioDJ())
+    }
 }
