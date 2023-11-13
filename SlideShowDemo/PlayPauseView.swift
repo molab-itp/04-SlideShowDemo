@@ -52,6 +52,12 @@ struct PlayPauseView: View {
                 nextItemAction()
             }
         }
+        .onAppear() {
+            
+        }
+        .onDisappear() {
+            
+        }
     }
     
     func playPauseAction() {
