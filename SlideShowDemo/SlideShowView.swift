@@ -8,7 +8,7 @@
 import SwiftUI
 
 
-struct NextPreviousView: View {
+struct SlideShowView: View {
     @State var slideIndex = 0
     var body: some View {
         VStack {
@@ -16,7 +16,7 @@ struct NextPreviousView: View {
                 .font(Font.system(size: 30, weight: .bold))
                 .padding()
             let name = slides[slideIndex]
-            SlideView(name: name)
+            SingleSlideView(name: name)
             HStack {
                 Button(action: previousItemAction) {
                     Image(systemName: "chevron.left")
@@ -48,7 +48,7 @@ struct NextPreviousView: View {
 }
 
 // The view use to represent a slide
-struct SlideView: View {
+struct SingleSlideView: View {
     var name:String
     var body: some View {
         VStack {
@@ -61,6 +61,6 @@ struct SlideView: View {
 
 struct NextPrevious_Previews: PreviewProvider {
     static var previews: some View {
-        NextPreviousView()
+        SlideShowView()
     }
 }

@@ -1,5 +1,5 @@
 //
-//  PlayPause.swift
+//  SlideView.swift
 //  SlideShowDemo
 //
 //  Created by jht2 on 3/10/22.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct PlayPauseView: View {
+struct SlidesAudioView: View {
     @State var slideIndex = 0
     @State var isPlaying = false
     // Timer gets called every second.
@@ -18,12 +18,12 @@ struct PlayPauseView: View {
     
     var body: some View {
         VStack {
-            Text("Play Pause Slides")
+            Text("Slide")
                 .font(Font.system(size: 30, weight: .bold))
                 .padding()
             // slides is defined in ContentView
             let name = slides[slideIndex]
-            SlideView(name: name)
+            SingleSlideView(name: name)
             HStack {
                 Button(action: previousItemAction) {
                     Image(systemName: "chevron.left")
@@ -79,9 +79,9 @@ struct PlayPauseView: View {
 
 // AudioDJ must be established here to avoid crash in preview
 // Can not use var property
-struct PlayPause_Previews: PreviewProvider {
+struct SlideView_Previews: PreviewProvider {
     static var previews: some View {
-        PlayPauseView()
+        SlidesAudioView()
             .environmentObject(AudioDJ())
     }
 }
