@@ -7,24 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB06C1282B798F35001E0DDD /* SlidesAudioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB06C1262B798F35001E0DDD /* SlidesAudioView.swift */; };
+		AB06C1292B798F35001E0DDD /* SlideShowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB06C1272B798F35001E0DDD /* SlideShowView.swift */; };
 		AB07E42727DA553D00392EBD /* SlideShowDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB07E42627DA553D00392EBD /* SlideShowDemoApp.swift */; };
 		AB07E42927DA553D00392EBD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB07E42827DA553D00392EBD /* ContentView.swift */; };
 		AB07E42B27DA553F00392EBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB07E42A27DA553F00392EBD /* Assets.xcassets */; };
 		AB07E42E27DA553F00392EBD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB07E42D27DA553F00392EBD /* Preview Assets.xcassets */; };
-		AB07E43527DA614600392EBD /* NextPreviousView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB07E43427DA614600392EBD /* NextPreviousView.swift */; };
-		AB07E43727DA633C00392EBD /* PlayPauseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB07E43627DA633C00392EBD /* PlayPauseView.swift */; };
 		AB07E43B27DA6F1300392EBD /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AB07E43A27DA6F1300392EBD /* README.md */; };
 		AB4EC79629CA512700CC106D /* AudioDJ.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4EC79529CA512700CC106D /* AudioDJ.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB06C1262B798F35001E0DDD /* SlidesAudioView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlidesAudioView.swift; sourceTree = "<group>"; };
+		AB06C1272B798F35001E0DDD /* SlideShowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideShowView.swift; sourceTree = "<group>"; };
 		AB07E42327DA553D00392EBD /* SlideShowDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideShowDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB07E42627DA553D00392EBD /* SlideShowDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideShowDemoApp.swift; sourceTree = "<group>"; };
 		AB07E42827DA553D00392EBD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AB07E42A27DA553F00392EBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB07E42D27DA553F00392EBD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		AB07E43427DA614600392EBD /* NextPreviousView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextPreviousView.swift; sourceTree = "<group>"; };
-		AB07E43627DA633C00392EBD /* PlayPauseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayPauseView.swift; sourceTree = "<group>"; };
 		AB07E43A27DA6F1300392EBD /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		AB4EC79529CA512700CC106D /* AudioDJ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioDJ.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -62,8 +62,8 @@
 			children = (
 				AB07E42627DA553D00392EBD /* SlideShowDemoApp.swift */,
 				AB07E42827DA553D00392EBD /* ContentView.swift */,
-				AB07E43427DA614600392EBD /* NextPreviousView.swift */,
-				AB07E43627DA633C00392EBD /* PlayPauseView.swift */,
+				AB06C1272B798F35001E0DDD /* SlideShowView.swift */,
+				AB06C1262B798F35001E0DDD /* SlidesAudioView.swift */,
 				AB4EC79529CA512700CC106D /* AudioDJ.swift */,
 				AB07E42A27DA553F00392EBD /* Assets.xcassets */,
 				AB07E42C27DA553F00392EBD /* Preview Content */,
@@ -151,9 +151,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB07E42927DA553D00392EBD /* ContentView.swift in Sources */,
+				AB06C1282B798F35001E0DDD /* SlidesAudioView.swift in Sources */,
+				AB06C1292B798F35001E0DDD /* SlideShowView.swift in Sources */,
 				AB4EC79629CA512700CC106D /* AudioDJ.swift in Sources */,
-				AB07E43527DA614600392EBD /* NextPreviousView.swift in Sources */,
-				AB07E43727DA633C00392EBD /* PlayPauseView.swift in Sources */,
 				AB07E42727DA553D00392EBD /* SlideShowDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

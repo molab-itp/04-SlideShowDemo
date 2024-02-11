@@ -18,12 +18,12 @@ struct ContentView: View {
                 Text("Slide Show Demo")
                     .padding()
                     .font(.largeTitle)
-                NavigationLink (destination: NextPreviousView()) {
-                    Text("Next Previous Link")
+                NavigationLink (destination: SlideShowView()) {
+                    Text("Slide Show")
                         .padding()
                 }
-                NavigationLink (destination: PlayPauseView()) {
-                    Text("Play Pause Link")
+                NavigationLink (destination: SlidesAudioView()) {
+                    Text("Slides Audio")
                 }
                 Spacer()
             }

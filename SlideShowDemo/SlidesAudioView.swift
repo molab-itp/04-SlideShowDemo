@@ -18,7 +18,7 @@ struct SlidesAudioView: View {
     
     var body: some View {
         VStack {
-            Text("Slide")
+            Text("Slides Audio")
                 .font(Font.system(size: 30, weight: .bold))
                 .padding()
             // slides is defined in ContentView

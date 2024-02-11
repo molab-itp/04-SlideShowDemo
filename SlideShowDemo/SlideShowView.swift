@@ -12,7 +12,7 @@ struct SlideShowView: View {
     @State var slideIndex = 0
     var body: some View {
         VStack {
-            Text("Next Previous")
+            Text("Slide Show")
                 .font(Font.system(size: 30, weight: .bold))
                 .padding()
             let name = slides[slideIndex]
