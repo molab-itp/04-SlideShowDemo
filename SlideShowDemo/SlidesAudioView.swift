@@ -13,7 +13,6 @@ struct SlidesAudioView: View {
     // Timer gets called every second.
     let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
     
-    //  @StateObject var audioDJ = AudioDJ()
     @EnvironmentObject var audioDJ:AudioDJ;
     
     var body: some View {
