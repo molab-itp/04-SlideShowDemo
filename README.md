@@ -9,3 +9,10 @@
 
 - PlayPauseView: setting up AudioDJ as environmentObject so that audio can presists between views
     
+
+## Changes
+
+- use @Observable, upgrade from ObservableObject
+- Track data using @Observable, @Environment, .environment(
+- replaces @State, @StateObject and @EnvironmentObject
+
