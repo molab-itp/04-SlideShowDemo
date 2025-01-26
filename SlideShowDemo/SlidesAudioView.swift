@@ -13,7 +13,7 @@ struct SlidesAudioView: View {
     // Timer gets called every second.
     let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
     
-    @EnvironmentObject var audioDJ:AudioDJ;
+    @Environment(AudioDJ.self) var audioDJ;
     
     var body: some View {
         VStack {
@@ -81,6 +81,6 @@ struct SlidesAudioView: View {
 struct SlideView_Previews: PreviewProvider {
     static var previews: some View {
         SlidesAudioView()
-            .environmentObject(AudioDJ())
+            .environment(AudioDJ())
     }
 }

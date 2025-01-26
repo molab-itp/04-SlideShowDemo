@@ -32,9 +32,7 @@ struct ContentView: View {
 }
 
 // AudioDJ must be established here to avoid crash in preview
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-            .environmentObject(AudioDJ())
-    }
+#Preview {
+    ContentView()
+        .environment(AudioDJ())
 }

@@ -7,10 +7,11 @@
 
 import AVFoundation
 
-class AudioDJ: ObservableObject {
-    @Published var soundIndex = 0
-    @Published var soundFile = audioRef[0]
-    @Published var player: AVAudioPlayer? = nil
+@Observable
+class AudioDJ {
+    var soundIndex = 0
+    var soundFile = audioRef[0]
+    var player: AVAudioPlayer? = nil
     
     // class must have initializer
     init() {
