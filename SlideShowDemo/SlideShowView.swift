@@ -59,8 +59,6 @@ struct SingleSlideView: View {
     }
 }
 
-struct NextPrevious_Previews: PreviewProvider {
-    static var previews: some View {
-        SlideShowView()
-    }
+#Preview {
+  SlideShowView()
 }

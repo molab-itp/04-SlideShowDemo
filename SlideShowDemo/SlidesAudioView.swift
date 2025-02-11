@@ -78,9 +78,7 @@ struct SlidesAudioView: View {
 
 // AudioDJ must be established here to avoid crash in preview
 // Can not use var property
-struct SlideView_Previews: PreviewProvider {
-    static var previews: some View {
-        SlidesAudioView()
-            .environment(AudioDJ())
-    }
+#Preview {
+  SlidesAudioView()
+    .environment(AudioDJ())
 }
