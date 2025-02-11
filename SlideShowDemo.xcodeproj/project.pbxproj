@@ -61,10 +61,10 @@
 			isa = PBXGroup;
 			children = (
 				AB07E42627DA553D00392EBD /* SlideShowDemoApp.swift */,
+				AB4EC79529CA512700CC106D /* AudioDJ.swift */,
 				AB07E42827DA553D00392EBD /* ContentView.swift */,
 				AB06C1272B798F35001E0DDD /* SlideShowView.swift */,
 				AB06C1262B798F35001E0DDD /* SlidesAudioView.swift */,
-				AB4EC79529CA512700CC106D /* AudioDJ.swift */,
 				AB07E42A27DA553F00392EBD /* Assets.xcassets */,
 				AB07E42C27DA553F00392EBD /* Preview Content */,
 			);

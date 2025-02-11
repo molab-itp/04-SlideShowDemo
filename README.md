@@ -1,4 +1,4 @@
-#  Slide Show Demo
+# [04-SlideShowDemo](https://github.com/molab-itp/04-SlideShowDemo)
 
 - basic slide show
 
@@ -9,3 +9,7 @@
 
 - PlayPauseView: setting up AudioDJ as environmentObject so that audio can presists between views
     
+## Changes
+
+- Track data using @Observable, @Environment, .environment(
+- replaces @State, @StateObject and @EnvironmentObject
